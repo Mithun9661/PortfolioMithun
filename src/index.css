@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #050a0e;
+  color: #e0fff4;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-track { background: #050a0e; }
+::-webkit-scrollbar-thumb { background: #0d7377; border-radius: 10px; }
+
+::selection { background: rgba(20,255,236,0.2); color: #14ffec; }
+
+@layer utilities {
+  .gradient-text {
+    background: linear-gradient(135deg, #14ffec, #7b2fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .teal-glow { box-shadow: 0 0 30px rgba(20,255,236,0.2); }
+  .violet-glow { box-shadow: 0 0 30px rgba(123,47,255,0.25); }
+  .card-surface {
+    background: rgba(13,17,23,0.8);
+    border: 1px solid rgba(20,255,236,0.08);
+    backdrop-filter: blur(10px);
+  }
+  .card-hover-teal {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+  }
+  .card-hover-teal:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(20,255,236,0.10);
+    border-color: rgba(20,255,236,0.25);
+  }
+}
