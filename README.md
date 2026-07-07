@@ -112,8 +112,8 @@ Edit that file and the whole site updates automatically.
 
 **Mithun Kumar**
 - Email: mithunk98991@gmail.com
-- GitHub: [@the-sadanand](https://github.com/the-sadanand/)
-- LinkedIn: [sadanand-kumar](https://www.linkedin.com/in/sadanand-kumar/)
+- GitHub: [Mithun9661](https://github.com/Mithun9661/)
+- LinkedIn: [mithun-kumar](https://www.linkedin.com/in/mithun-kumar-bbaa66244/?skipRedirect=true/)
 
 ---
 
