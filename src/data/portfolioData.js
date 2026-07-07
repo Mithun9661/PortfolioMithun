@@ -1,5 +1,5 @@
 // ============================================================
-//  SADANAND KUMAR — Portfolio Data
+//  MITHUN KUMAR — Portfolio Data
 // ============================================================
 
 export const personalInfo = {
